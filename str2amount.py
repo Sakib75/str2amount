@@ -29,8 +29,3 @@ def get_amount_str(string_amount):
             result = re.findall(reg,string_amount)
             if result:
                 return result[0].strip()
-    
-
-
-x  = get_amount_str('$85,000PlusInventory')
-print(x)
